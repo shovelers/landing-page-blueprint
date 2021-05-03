@@ -22116,12 +22116,12 @@ p {
   }
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .hero-area {
     margin-bottom: 238px;
     padding: 165px 0;
   }
-}
+} */
 
 .hero-area::before {
   position: absolute;
