@@ -22,12 +22,25 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMLE2F614K"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-YMLE2F614K');
+        gtag('config', 'G-YMLE2F614K');
     </script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+   
+    <style>
+        #particles-js {
+            position: absolute;
+            top:0px;
+            width: 100%;
+            height: 100%;
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style> 
 
 </head>
 
@@ -410,6 +423,8 @@
     <!-- Footer Section -->
     <footer class="section-padding-top footer-bg shape-holder">
         <div class="container">
+            <div id="particles-js"></div>
+
             <div class="row justify-content-md-center justify-content-lg-left space-db--40">
                 <div class="col-lg-2 col-md-5 col-sm-5 col-4 mb--40">
                     <h3 class="footer-title">Company</h3>
@@ -495,6 +510,7 @@
   <script src="./plugins/jquery/jquery.min.js"></script>
   <script src="./plugins/jquery/jquery-migrate.min.js"></script>
   <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
 
   <!-- Plugins JS -->
   <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
