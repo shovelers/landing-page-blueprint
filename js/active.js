@@ -182,5 +182,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			}
 		},
 		"retina_detect": true
-	}, function(){alert("particle loaded")});
+	});
 });
