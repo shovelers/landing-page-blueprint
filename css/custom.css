@@ -21937,7 +21937,6 @@
     Hero Area
 //////////////////////////// */
 .hero-area {
-  background: url("../image/hero-bg.jpg") no-repeat top center;
   background-size: cover;
   position: relative;
 }
