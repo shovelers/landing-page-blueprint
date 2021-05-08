@@ -22220,7 +22220,6 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  margin-top: 80px;
 }
 
 @media (min-width: 576px) {
