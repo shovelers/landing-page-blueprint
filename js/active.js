@@ -198,4 +198,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 				});
 		});
 	});
-})
+	
+	$(function () {
+		$(document).scroll(function () {
+			var $nav = $("#fixed-navbar");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		});
+	});
+});

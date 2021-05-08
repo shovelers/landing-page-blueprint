@@ -64,6 +64,10 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        .scrolled {
+            background-color: #333d53 !important;
+            transition: background-color 200ms linear;
+        }
     </style> 
 
 </head>
@@ -84,8 +88,8 @@
         </div>
     </div>
     <!-- Header Starts -->
-    <header class="site-header d-none d-lg-block">
-        <div class="container-fluid pl-lg--35 pr-lg--35">
+    <header class="site-header d-none d-lg-block" id="fixed-navbar" style="position: fixed;z-index: 1000;" >
+        <div class="container-fluid pl-lg--35 pr-lg--35" >
             <div class="row justify-content-between align-items-center position-relative">
                 <div class="col">
                     <!-- Brand Logo -->
